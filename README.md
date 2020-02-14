@@ -1,14 +1,17 @@
-# Default starter for Gridsome
+# Gridsome application
 
-This is the project you get when you run `gridsome create new-project`.
+Frontend of my jamstack app! 🍯
 
-### 1. Install Gridsome CLI tool if you don't have
+## Build Setup
 
-`npm install --global @gridsome/cli`
+### Dependencies
 
-### 2. Create a Gridsome project
+1. Node.js: [download](https://nodejs.org/en/download)
+2. Yarn: [download](https://classic.yarnpkg.com/en/docs/install)
 
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+### Installation and run
+
+```sh
+yarn # install dependencies
+yarn develop # run
+```
