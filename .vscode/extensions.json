@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "prisma.vscode-graphql",
+    "esbenp.prettier-vscode",
+    "octref.vetur",
+    "editorconfig.editorconfig",
+    "firefox-devtools.vscode-firefox-debug"
+  ]
+}
