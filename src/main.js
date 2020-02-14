@@ -1,15 +1,14 @@
 // This is the main.js file. Import global CSS and scripts here.
 // The Client API can be used here. Learn more: gridsome.org/docs/client-api
 
-import Vuetify from 'vuetify';
+import Vuetify from 'vuetify/lib/framework';
 import 'vuetify/dist/vuetify.min.css';
 import DefaultLayout from '@/layouts/Default';
-import GLink from 'gridsome/app/components/Link';
 
 export default function (Vue, { appOptions, head }) {
   head.link.push({
     rel: 'stylesheet',
-    href: 'https://fonts.googleapis.com/icon?family=Material+Icons',
+    href: 'https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css',
   });
 
   head.link.push({
@@ -25,5 +24,4 @@ export default function (Vue, { appOptions, head }) {
 
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout);
-  Vue.component('GLink', GLink);
 }

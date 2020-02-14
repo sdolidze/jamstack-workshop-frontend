@@ -6,6 +6,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 const nodeExternals = require('webpack-node-externals');
+const VuetifyLoaderPlugin = require('vuetify-loader/lib/plugin');
 
 module.exports = (api) => {
   api.chainWebpack((config, { isServer }) => {
@@ -16,6 +17,7 @@ module.exports = (api) => {
         }),
       ]);
     }
+    config.plugin('vuetify-loader').use(VuetifyLoaderPlugin);
   });
 
   // api.loadSource(({ addCollection }) => {
