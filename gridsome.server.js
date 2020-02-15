@@ -5,18 +5,10 @@
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
-const nodeExternals = require('webpack-node-externals');
 const VuetifyLoaderPlugin = require('vuetify-loader/lib/plugin');
 
 module.exports = (api) => {
-  api.chainWebpack((config, { isServer }) => {
-    if (isServer) {
-      config.externals([
-        nodeExternals({
-          whitelist: [/^vuetify/],
-        }),
-      ]);
-    }
+  api.chainWebpack((config) => {
     config.plugin('vuetify-loader').use(VuetifyLoaderPlugin);
   });
 

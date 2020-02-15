@@ -8,30 +8,30 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "cross-env": "^6.0.3",
+    "deepmerge": "^4.2.2",
+    "fibers": "^4.0.2",
     "gridsome": "^0.7.0",
-    "vuetify": "^2.2.12"
+    "sass": "^1.25.0",
+    "sass-loader": "^7.1.0",
+    "vuetify": "^2.2.12",
+    "vuetify-loader": "^1.4.3"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
-    "cross-env": "^6.0.3",
-    "deepmerge": "^4.2.2",
     "eslint": "^6.7.2",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-import-resolver-webpack": "^0.11.1",
     "eslint-loader": "^3.0.2",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-vue": "^6.0.1",
-    "fibers": "^4.0.2",
     "husky": "^4.0.9",
     "lint-staged": "^10.0.2",
-    "prettier": "^1.19.1",
-    "sass": "^1.25.0",
-    "sass-loader": "^7.1.0",
-    "vuetify-loader": "^1.4.3",
-    "webpack-node-externals": "^1.7.2"
+    "prettier": "^1.19.1"
   },
   "engines": {
-    "yarn": ">=1.19.2 <2",
+    "yarn": ">=1.17.0 <2",
     "node": ">=10.0.0 <13"
   }
 }
