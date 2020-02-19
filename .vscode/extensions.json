@@ -4,7 +4,9 @@
     "prisma.vscode-graphql",
     "esbenp.prettier-vscode",
     "octref.vetur",
+    "sdras.vue-vscode-snippets",
+    "vuetifyjs.vuetify-vscode",
     "editorconfig.editorconfig",
-    "firefox-devtools.vscode-firefox-debug"
+    "ms-vsliveshare.vsliveshare"
   ]
 }
